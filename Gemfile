@@ -1,7 +1,9 @@
-source "http://rubygems.org"
+source 'https://rubygems.org'
+
+gemspec
 
 group :development do
-  gem "rspec", "~> 2.5.0" 
-  gem "jeweler", "~> 1.5.2"
+  gem 'rake'
+  gem 'rspec', '~> 3.1'
+  gem 'rubocop', '0.29.1'
 end
-
